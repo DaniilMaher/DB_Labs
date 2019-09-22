@@ -13,12 +13,12 @@
 	CREATE TABLE sales.Orders (OrderNum INT NULL);
 	GO
 
-	BACKUP DATABASE Daniil_Maher TO DISK='D:\Г“Г­ГЁГўГҐГ°\ГЃГ„\Lab1\Daniil_Maher.bak';
+	BACKUP DATABASE Daniil_Maher TO DISK='D:\Универ\БД\Lab1\Daniil_Maher.bak';
 	GO
 
 	USE master
 	DROP DATABASE Daniil_Maher;
 	GO
 
-	RESTORE DATABASE Daniil_Maher FROM DISK='D:\Г“Г­ГЁГўГҐГ°\ГЃГ„\Lab1\Daniil_Maher.bak';
+	RESTORE DATABASE Daniil_Maher FROM DISK='D:\Универ\БД\Lab1\Daniil_Maher.bak';
 	GO
